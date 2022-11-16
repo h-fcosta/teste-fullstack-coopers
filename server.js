@@ -1,5 +1,5 @@
 import dotEnv from "dotenv";
-import app from "./src/app.js";
+import app from "./server/src/app.js";
 
 dotEnv.config();
 
