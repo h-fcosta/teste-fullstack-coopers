@@ -2,6 +2,7 @@ import express from "express";
 import routes from "./routes/index.js";
 import db from "./config/dbConnect.js";
 import cors from "cors";
+import path from 'path';
 
 const app = express();
 app.use(express.json());
