@@ -1,10 +1,10 @@
 # Teste Vaga Fullstack Developer - Coopers
 
-##By Henrique Costa
+#### By Henrique Costa
 
 Aplicação MERN de 'To-do List' feita com Node.js no backend, e React.js no frontend.
 
-#Backend
+# Backend
 
 Foi criado um sistema de cadastro e autenticação(login), usando o MongoDB para armazenar os dados e Express.
 
@@ -13,7 +13,7 @@ E na parte de autenticação, foi usado o pacote JsonWebToken, para a criação 
 Somente as rotas de cadastro e login não utilizam os tokens gerados, as diversas rotas todas necessitam de um token e passam por uma verificação se o mesmo é válido ou não.
 Além da parte de usuário, foi criado uma sistema básico de CRUD para as tarefas da lista.
 
-#Frontend
+# Frontend
 
 A parte de frontend foi criada com React.js e para a criação do design, a partir do modelo que foi passado, foi utilizada a biblioteca CSS Bulma.io, além de alguns códigos CSS específicos para alguns componentes.
 
